@@ -12,9 +12,18 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "lib": ["es6", "dom"],
-    "jsx": "preserve"
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "jsx": "react-jsx",
+    "noFallthroughCasesInSwitch": true
   },
-  "exclude": ["src/setupProxy.js", "src/lambda"],
-  "include": ["src"]
+  "exclude": [
+    "src/setupProxy.js",
+    "src/lambda"
+  ],
+  "include": [
+    "src"
+  ]
 }
